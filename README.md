@@ -123,3 +123,4 @@ SELECT last_name,count(last_name) AS "frequency counts"
 FROM employees
 GROUP BY last_name
 ORDER BY "frequency counts" DESC
+
